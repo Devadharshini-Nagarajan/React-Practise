@@ -1,0 +1,30 @@
+.header {
+  border: 1px solid #add8e6;
+  justify-content: space-between;
+  display: flex;
+}
+
+.logo-container img {
+  width: 90px;
+  height: 90px;
+}
+
+.nav-items ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.nav-items ul li {
+  padding: 10px;
+}
+
+.res-card {
+  border: 1px solid #d3d3d3;
+  flex-direction: column;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 10px;
+  display: flex;
+}
+
+/*# sourceMappingURL=index.9e4c6fd2.css.map */
