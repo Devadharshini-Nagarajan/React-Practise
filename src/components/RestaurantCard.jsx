@@ -7,8 +7,9 @@ const RestaurantCard = (props) => {
   return (
     <Link to={`/restaurant/` + id}>
       <div className="res-card">
-        <span>{props.resData.info.name}</span>
-        <span>{resData.name}</span>
+        <span className="title">{props.resData.info.name}</span>
+
+        <span>{resData.info.areaName}</span>
       </div>
     </Link>
   );
